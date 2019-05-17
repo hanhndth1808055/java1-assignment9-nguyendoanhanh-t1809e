@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment9.DateFindOrder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button onAction="#submit" layoutX="274.0" layoutY="146.0" mnemonicParsing="false" text="Button" />
+      <TextField fx:id="txtDay" layoutX="41.0" layoutY="84.0" promptText="Insert day" />
+      <TextField fx:id="txtMonth" layoutX="240.0" layoutY="84.0" promptText="Insert month" />
+      <TextField fx:id="txtYear" layoutX="430.0" layoutY="84.0" promptText="Insert year" />
+      <Text layoutX="17.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Day" />
+      <Text layoutX="196.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Month" wrappingWidth="40.455078125" />
+      <Text layoutX="398.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year" />
+      <TextArea fx:id="txtResult" layoutX="200.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</Pane>
